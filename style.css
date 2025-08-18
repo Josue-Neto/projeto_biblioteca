@@ -1,8 +1,15 @@
 
-@import url('https://online-fonts.com/fonts/carl-brown-regular');
-@font-face{
-    font-family: Carl Brown;
-    src: url(Hangyaboly.ttf);
+@font-face {
+  font-family: 'CarlBrown';
+  src: url('Carl Brown Regular/CarlBrown.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'CarlBrown', serif;
+  color:white
+  border:
 }
 
 header{
@@ -20,13 +27,22 @@ header{
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-#Livros {
+#Banner {
   background: url('img/areia1.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
   background-size: cover;
   background-position: center;
   z-index: 0;
   height: 100vh;
   width: 100%;
+}
+
+#titulo{
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #Autores {
