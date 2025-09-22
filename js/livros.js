@@ -92,6 +92,66 @@ const BOOKS = [
     paginas: 304,
     rating: 4.7,
     reviews: 12
+  },
+    {
+    id: 7,
+    title: "Cosmos",
+    author: "Carl Sagan",
+    cover: "img/cosmos.jpg",
+    coverLarge: "img/cosmos.jpg",
+    synopsis: "Escrito por um dos maiores divulgadores da ciência do século XX, Cosmos retraça 14 bilhões de anos de evolução cósmica, abordando a origem da vida, o cérebro humano, missões espaciais, a morte do Sol, a evolução das galáxias e os pensadores que moldaram a ciência moderna. Com prosa clara e envolvente, Carl Sagan conecta ciência a história, arte e filosofia, revelando os segredos do planeta azul e nossa busca por identidade no vasto espaço. Publicado em 1980, continua sendo uma das mais importantes obras de divulgação científica, refletindo o fascínio humano pelo conhecimento.",
+    audio: "audios/cosmos.mp3",
+    year: "6 novembro 2017",
+    genre: { id: "astronomia", name: "Astronomia" },
+    ISBN:  "8535929886",
+    paginas: 488,
+    rating: 4.9,
+    reviews: 12
+  },
+  {
+    id: 8,
+    title: "Eu, Robõ",
+    author: "Isaac Asimov",
+    cover: "img/eurobo.jpg",
+    coverLarge: "img/eurobo.jpg",
+    synopsis: "Um dos maiores clássicos da literatura de ficção científica, Eu, Robô, escrito por Isaac Asimov, é um conjunto de nove contos interconectados pela Dra. Susan Calvin, que apresenta seus relatos sobre a evolução dos autômatos através do tempo. É nessa obra que Asimov apresenta as célebres Três Leis da Robótica, princípios que regem o comportamento dos autômatos em toda a sua trajetória.",
+    audio: "audios/eurobo.mp3",
+    year: "24 novembro 2014",
+    genre: { id: "astronomia", name: "Astronomia" },
+    ISBN:  "8576572001",
+    paginas: 320,
+    rating: 4.8,
+    reviews: 12
+  },
+  {
+    id: 9,
+    title: "Universo",
+    author: "Will Gater",
+    cover: "img/Universo.jpg",
+    coverLarge: "img/Universo.jpg",
+    synopsis: "Uma jornada visual repleta de fotografias, ilustrações e histórias que revelam segredos de mais de 100 objetos celestes, com fatos surpreendentes e descobertas empolgantes sobre o Universo. Nesse livro, o leitor explora o Sistema Solar e o espaço além, aprendendo sobre eclipses, nascimento de planetas, explosões estelares, colisões de galáxias e muitos outros fenômenos fascinantes.",
+    audio: "audios/universo.mp3",
+    year: "5 novembro 2024",
+    genre: { id: "astronomia", name: "Astronomia" },
+    ISBN:  "6555648791",
+    paginas: 224,
+    rating: 4.8,
+    reviews: 12
+  },
+  {
+    id: 10,
+    title: "2001",
+    author: "Arthur C. Clarke",
+    cover: "img/2001.jpg",
+    coverLarge: "img/2001.jpg",
+    synopsis: "Nos primórdios da humanidade, quando a fome e os predadores ameaçavam a raça humana, chega à Terra um objeto inusitado, inacessível à limitada compreensão da mente pré-histórica, mas que influencia os homens a descobrir coisas que permitem a sua própria evolução. Milhões de anos depois, a descoberta de um monólito soterrado na Lua deixa os cientistas perplexos. Para investigar esse mistério, a Terra envia ao espaço uma equipe altamente treinada. Porém, o surgimento de pequenas falhas levanta a suspeita de que há algo errado com a missão.",
+    audio: "audios/2001.mp3",
+    year: "16 setembro 2015",
+    genre: { id: "astronomia", name: "Astronomia" },
+    ISBN:  "9788576571711",
+    paginas: 326,
+    rating: 4.7,
+    reviews: 12
   }
 ];
 
