@@ -204,7 +204,7 @@ const BOOKS = [
     author: "Howard Pyle",
     cover: "img/robin.jpg",
     coverLarge: "img/robin.jpg",
-    synopsis: "O livro "As aventuras de Robin Hood", de Howard Pyle, é a mais conhecida e consagrada versão dessa balada medieval. A história de Robin Hood, um dos heróis mais famosos da cultura da Grã-Bretanha, já foi adaptada inúmeras vezes no teatro e no cinema, provando ser um sucesso absoluto com o público. Nas suas aventuras, Robin Hood roubava dos ricos para dar aos pobres, ajudado por outros aventureiros como John Pequeno, Frei Tuck e Will Escarlate. Esse livro é um romance de aventura para todos os públicos.",
+    synopsis: "O livro As aventuras de Robin Hood, de Howard Pyle, é a mais conhecida e consagrada versão dessa balada medieval. A história de Robin Hood, um dos heróis mais famosos da cultura da Grã-Bretanha, já foi adaptada inúmeras vezes no teatro e no cinema, provando ser um sucesso absoluto com o público. Nas suas aventuras, Robin Hood roubava dos ricos para dar aos pobres, ajudado por outros aventureiros como John Pequeno, Frei Tuck e Will Escarlate. Esse livro é um romance de aventura para todos os públicos.",
     audio: "audios/.mp3",
     year: "1 maio 2013",
     genre: { id: "aventura", name: "Aventura" },
@@ -234,8 +234,7 @@ const BOOKS = [
     author: "Sthepen King",
     cover: "img/abordo.jpg",
     coverLarge: "img/abordo.jpg",
-    synopsis: "Bem-vindos a Terror a bordo , uma antologia sobre tudo que pode dar terrivelmente errado quando se está a 20 mil pés de altura, cortando os céus a 800 km/h, preso em uma caixa de metal com centenas de desconhecidos.
-Aqui você vai encontrar todas as maneiras como sua agradável viagem pelos ares pode se transformar em um pesadelo, incluindo algumas formas que você nunca imaginou… mas que vai imaginar da próxima vez em que estiver atravessando a ponte de embarque e entregando sua vida nas mãos de um estranho.",
+    synopsis: "Bem-vindos a Terror a bordo , uma antologia sobre tudo que pode dar terrivelmente errado quando se está a 20 mil pés de altura, cortando os céus a 800 km/h, preso em uma caixa de metal com centenas de desconhecidos. Aqui você vai encontrar todas as maneiras como sua agradável viagem pelos ares pode se transformar em um pesadelo, incluindo algumas formas que você nunca imaginou… mas que vai imaginar da próxima vez em que estiver atravessando a ponte de embarque e entregando sua vida nas mãos de um estranho.",
     audio: "audios/.mp3",
     year: "17 fevereiro 2020",
     genre: { id: "terror", name: "Terror" },
@@ -345,4 +344,5 @@ const AUTORES = [
         });
       }
     }
+
 
