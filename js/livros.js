@@ -197,67 +197,7 @@ const BOOKS = [
     paginas: 304,
     rating: 4.7,
     reviews: 3.809
-  },
-{
-    id: 14,
-    title: "As aventuras de Robin Hood",
-    author: "Howard Pyle",
-    cover: "img/robin.jpg",
-    coverLarge: "img/robin.jpg",
-    synopsis: "O livro As aventuras de Robin Hood, de Howard Pyle, é a mais conhecida e consagrada versão dessa balada medieval. A história de Robin Hood, um dos heróis mais famosos da cultura da Grã-Bretanha, já foi adaptada inúmeras vezes no teatro e no cinema, provando ser um sucesso absoluto com o público. Nas suas aventuras, Robin Hood roubava dos ricos para dar aos pobres, ajudado por outros aventureiros como John Pequeno, Frei Tuck e Will Escarlate. Esse livro é um romance de aventura para todos os públicos.",
-    audio: "audios/.mp3",
-    year: "1 maio 2013",
-    genre: { id: "aventura", name: "Aventura" },
-    ISBN:  "8572329609",
-    paginas: 309,
-    rating: 4.6,
-    reviews: 522
-  },
-{
-    id: 15,
-    title: "Com Sangue",
-    author: "Sthepen King",
-    cover: "img/sangue.jpg",
-    coverLarge: "img/sangue.jpg",
-    synopsis: "Brilhante em narrativas curtas, King já escreveu alguns contos que viraram sucesso em todo o mundo, como as histórias que inspiraram os filmes Conta comigo e Um sonho de liberdade . Neste livro, assim como em Quatro estações e Escuridão total sem estrelas , ele cria uma coleção única e emocionante, demonstrando mais uma vez por que é considerado um dos maiores contadores de histórias de todos os tempos. Este é um livro sobre amor, amizade, talento e justiça… em suas formas mais deturpadas. Em Com sangue , Stephen King reúne quatro contos com protagonistas inteligentes e complexos, que têm sua vida comum transformada por algum elemento inexplicável.",
-    audio: "audios/.mp3",
-    year: "4 setembro 2020",
-    genre: { id: "terror", name: "Terror" },
-    ISBN:  "8556510973",
-    paginas: 400,
-    rating: 4.8,
-    reviews: 1.498
-  },
-{
-    id: 16,
-    title: "Terror A Bordo",
-    author: "Sthepen King",
-    cover: "img/abordo.jpg",
-    coverLarge: "img/abordo.jpg",
-    synopsis: "Bem-vindos a Terror a bordo , uma antologia sobre tudo que pode dar terrivelmente errado quando se está a 20 mil pés de altura, cortando os céus a 800 km/h, preso em uma caixa de metal com centenas de desconhecidos. Aqui você vai encontrar todas as maneiras como sua agradável viagem pelos ares pode se transformar em um pesadelo, incluindo algumas formas que você nunca imaginou… mas que vai imaginar da próxima vez em que estiver atravessando a ponte de embarque e entregando sua vida nas mãos de um estranho.",
-    audio: "audios/.mp3",
-    year: "17 fevereiro 2020",
-    genre: { id: "terror", name: "Terror" },
-    ISBN:  "8556510825",
-    paginas: 240,
-    rating: 4.4,
-    reviews: 267
-  },
-{
-    id: 17,
-    title: "A paciente silenciosa",
-    author: "Alex Michaelides",
-    cover: "img/silenciosa.jpg",
-    coverLarge: "img/silenciosa.jpg",
-    synopsis: "Alicia Berenson tinha uma vida perfeita. Ela era uma pintora famosa casada com um fotógrafo bem-sucedido e morava numa área nobre de Londres que dá para o parque de Hampstead Heath. Certa noite, Gabriel, seu marido, voltou tarde para casa depois de um ensaio para a Vogue, e de repente a vida de Alicia mudou completamente...",
-    audio: "audios/.mp3",
-    year: "20 maio 2019",
-    genre: { id: "terror", name: "Terror" },
-    ISBN:  "8501116432",
-    paginas: 364,
-    rating: 4.7,
-    reviews: 41.766
-      }
+  }
 ];
 
 const GENERO = [
@@ -344,5 +284,6 @@ const AUTORES = [
         });
       }
     }
+
 
 
