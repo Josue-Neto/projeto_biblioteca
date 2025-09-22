@@ -1,5 +1,5 @@
-// js/main.js
 // Cria dinamicamente slides para livros, autores e generos
+
 document.addEventListener('DOMContentLoaded', () => {
   // --- Livros em destaque (pega os 6 primeiros) ---
   const livrosWrapper = document.querySelector('.destaques .swiper .swiper-wrapper');
@@ -11,8 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
       slide.className = 'swiper-slide';
       slide.innerHTML = `
         <a href="livro.html?id=${book.id}">
+        <div class="livros-card">
           <img src="${book.cover}" alt="${book.title}">
-          <p>${book.title}</p>
+          </div>
+          <h3>${book.title}</h3>
         </a>
       `;
       livrosWrapper.appendChild(slide);
@@ -27,7 +29,7 @@ if (autoresWrapper && Array.isArray(AUTORES)) {
     const slide = document.createElement('div');
     slide.className = 'swiper-slide';
     slide.innerHTML = `
-      <a href="autor.html?id=${autor.id}">
+      <a href="autores.html?id=${autor.id}">
         <div class="autor-card">
           <img src="${autor.img}" alt="${autor.name}">
           <h3>${autor.name}</h3>
@@ -54,7 +56,7 @@ if (generoWrapper) {
       <a href="genero.html?id=${g.genero.id}">
         <div class="genero-card">
           <img src="${imgSrc}" alt="${g.genero.name}">
-          <span>${g.genero.name}</span>
+          <h3>${g.genero.name}</h3>
         </div>
       </a>
     `;

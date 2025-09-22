@@ -104,7 +104,6 @@ const GENERO = [
   { genero: { id: "terror", name: "Terror" } }
 ];
 
-
 const AUTORES = [
   {
     id: 1,

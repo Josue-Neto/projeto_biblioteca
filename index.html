@@ -11,23 +11,33 @@
 
 <body>
 
-  <header>
-    <nav class="nav bd-grid">
-      <a href="#" class="nav__rap">
-      </a>
+  <header class="barra">
+  <div class="header--container">
+    <div class="logo">
+      <a href="index.html">OndaLibri</a>
+    </div>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#carrossel-destaques">Destaques</a></li>
+        <li><a href="index.html#carrossel-autores">Autores</a></li>
+        <li><a href="index.html#carrossel-generos">Gêneros</a></li>
+      </ul>
     </nav>
+  </div>
   </header>
 
   <!-- Header -->
    <header class="header">
     <div class="overlay">
-      <h3 class="logo">OndaLibri</h1>
+      <h1 class="logo">OndaLibri</h1>
       <p class="mensagem">"Os livros são navios que viajam através dos mares da imaginação." - George W. Curtis </p>
     </div>
   </header>
 
   <!-- Carrossel de Livros -->
-  <section class="destaques">
+  <section class="destaques" id="carrossel-destaques">
     <h2>Livros em Destaque</h2>
     <div class="swiper">
       <div class="swiper-wrapper">
@@ -36,10 +46,11 @@
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
     </div>
+    </section>
 
 
 
-  <section class="autores">
+  <section class="autores" id="carrossel-autores">
     <h2>Autores Populares</h2>
     <div class="swiper">
       <div class="swiper-wrapper"></div>
@@ -50,7 +61,7 @@
 
 
   <!-- Carrossel de Gêneros -->
-  <section class="generos">
+  <section class="generos" id="carrossel-generos">
     <h2>Gêneros Literários</h2>
     <div class="swiper generos">
       <div class="swiper-wrapper"><!-- preenchido via JS --></div>
